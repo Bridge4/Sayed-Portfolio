@@ -7,6 +7,21 @@
         linear-gradient(to left top, #FBB574 0%/*bottom-right color*/, #FF8882 100% /*top-left color*/),
         linear-gradient(#000000, #000000)/*"faked" black background make sure to add last or it will appear before the transparent/colored layer*/;
 }
+
+.titleCard {
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+  opacity: 100%;
+}
+
+.bodyCard {
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+  opacity: 50%;
+}
+
 .title {
   color: #543855;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +30,13 @@
 .subtitle {
   color: #543855;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.FirstCard {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  background-color: #E88D72;
 }
 
 .App-logo {
